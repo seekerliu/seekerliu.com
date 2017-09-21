@@ -29,8 +29,6 @@
       <li><a href="https://huosuxue.com/" target="_blank">火速学</a></li>
       <li><a href="https://youdua.com/" target="_blank">有度啊</a></li>
     </ul>
-    <h2>Contacts</h2>
-    <p>seekerliu@vip.qq.com</p>
   </div>
 </template>
 
