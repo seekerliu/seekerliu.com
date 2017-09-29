@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <img class="avatar" src="../assets/avatar.jpeg">
     <h1>{{ msg }}</h1>
     <p>A PHP Artisan.</p>
     <h2>Lessons</h2>
@@ -24,10 +25,9 @@
         <a href="https://github.com/seekerliu/laravel-view-composer-generator" target="_blank">laravel-view-composer-generator</a>
       </li>
     </ul>
-    <h2>Projects</h2>
+    <h2>Vision</h2>
     <ul>
-      <li><a href="https://huosuxue.com/" target="_blank">火速学</a></li>
-      <li><a href="https://youdua.com/" target="_blank">有度啊</a></li>
+      <li><router-link to="/road">Road of Future</router-link></li>
     </ul>
   </div>
 </template>
@@ -45,21 +45,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-
-a {
-  color: #0366d6;
+.avatar {
+  width: 150px;
+  height: 150px;
+  border: 1px solid white;
+  border-radius: 50%;
 }
 </style>
